@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
      
-car_data = pd.read_csv(r'C:\Users\octav\venvs\ve_project7\project7\vehicles_us.csv') # leer los datos
+car_data = pd.read_csv(r'vehicles_us.csv') # leer los datos
 
 # Configuración de la página de Streamlit
 st.set_page_config(
