@@ -2,6 +2,6 @@
 # $ conda create --name <env> --file <this file>
 # platform: win-64
 # created-by: conda 24.11.3
-pandas=2.2.3=py313h5da7b33_0
-plotly_express=0.4.1=py_0
-streamlit=1.46.0=pyhd8ed1ab_0
+pandas
+plotly_express
+streamlit
