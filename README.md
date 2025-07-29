@@ -3,6 +3,7 @@
 ### Para que sirve ésta app de Streamlit
 #### Esta aplicación de Streamlit ha sido diseñada para ofrecer una exploración interactiva y visual del conjunto de datos de anuncios de venta de coches (vehicles_us.csv). El propósito principal es permitir a los usuarios analizar fácilmente las distribuciones de variables y las relaciones entre ellas a través de histogramas y gráficos de dispersión personalizables. Al proporcionar herramientas interactivas como selectores de columnas y casillas de verificación, la aplicación busca simplificar el proceso de extracción de insights y facilitar una comprensión profunda de los datos sin necesidad de escribir código, apoyando así la toma de decisiones basada en la evidencia.
 
+* Click aqui para abrir: [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://project7-r80d.onrender.com/)
 ### 1.- Importaciones:
 #### Se importan pandas para el manejo de datos, plotly.express para gráficos interactivos y streamlit para construir la aplicación web. 
 ### 2.- Configuración de la Página (st.set_page_config):
