@@ -1,3 +1,81 @@
+# 📊 Project 7: Interactive Car Sale Ads Analysis (Streamlit App)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://project7-r80d.onrender.com/)
+
+---
+
+### 🚀 **Overview and Application Purpose**
+
+This Streamlit application has been designed to offer an **interactive and visual exploration** of the car sale ads dataset (`vehicles_us.csv`). Its primary purpose is to allow users (analysts, car enthusiasts, or anyone interested in the automotive market) to easily analyze variable distributions and relationships between them through **customizable histograms and scatter plots**.
+
+By providing interactive tools like column selectors and checkboxes, the application aims to **simplify the insight extraction process** and facilitate a deep understanding of the data without the need for coding, thus supporting evidence-based decision-making in the automotive sector.
+
+---
+
+### 🛠️ **Technologies and Libraries Used**
+
+This project was developed using the following key tools:
+
+* **Python:** Main programming language.
+* **Streamlit:** Framework for building interactive web applications for data science.
+* **Pandas:** For data manipulation and analysis.
+* **Plotly Express:** For creating interactive and dynamic visualizations.
+
+---
+
+### ✨ **Key Application Features**
+
+The application offers the following interactive functionalities:
+
+* **Histogram Visualization:** Allows selecting any numerical column from the dataset to generate and explore its distribution.
+* **Scatter Plots:** Facilitates visualizing the relationship between two selected variables (e.g., `price` vs. `odometer`).
+* **Basic On-Load Preprocessing:** Performs initial handling of null values to ensure correct data visualization.
+* **`hover_data` Interactivity:** When hovering over points in scatter plots, additional information from the dataset is displayed.
+* **Responsive Design:** Adjusts to the container width for a better user experience on different screens.
+
+---
+
+### 💻 **Code Structure and Functionality**
+
+The application's code follows a clear and modular structure:
+
+1.  **Imports:** Loading of necessary libraries (`pandas`, `plotly.express`, `streamlit`).
+2.  **Page Configuration:** `st.set_page_config` to optimize the application's visual layout.
+3.  **Data Loading and Preprocessing:** Reading the `vehicles_us.csv` file and basic preprocessing to handle null values (`fillna` with median/mode in `model_year`, `cylinders`, `odometer`, `price`) before visualization.
+4.  **Interactive Components (Streamlit):**
+    * **`st.checkbox`:** Allows the user to toggle the display of histograms and scatter plots.
+    * **`st.selectbox`:** Offers dropdown selectors for the user to choose which data columns to visualize in each chart type.
+5.  **Chart Generation (Plotly Express):** Uses `px.histogram()` and `px.scatter()` to create interactive charts, including `hover_data` functionality for detailed insights.
+6.  **Streamlit Visualization:** `st.plotly_chart()` is used to display interactive charts within the application, with `use_container_width=True` for responsiveness.
+7.  **UI Elements and Messages:** Inclusion of titles (`st.title`, `st.subheader`), informational messages (`st.write`, `st.info`), and a footer to enhance user experience.
+
+---
+
+### 🚀 **Explore the Application!**
+
+Click the badge to access and experiment with the application directly in your browser:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://project7-r80d.onrender.com/)
+
+---
+
+### 📝 **Implementation Notes**
+
+* Null value preprocessing is basic for demonstration purposes of the application. In a complete data analysis, a more in-depth and sophisticated study of missing value treatment would be performed.
+* Column selection for scatter plots has been limited to those that typically offer the most interesting correlations in this type of dataset.
+
+---
+
+### 🤝 **Let's Connect**
+
+I am always open to new opportunities and collaborations. Feel free to reach out!
+
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/octavio-landa-verde/)
+* [![Hotmail](https://img.shields.io/badge/email-Hotmail-blue.svg)](mailto:octaviolanda@hotmail.com)
+
+---
+---
+
 # 📊 Proyecto 7: Análisis Interactivo de Anuncios de Venta de Coches (Streamlit App)
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://project7-r80d.onrender.com/)
@@ -65,3 +143,10 @@ Haz clic en el badge para acceder y experimentar con la aplicación directamente
 * La selección de columnas para los gráficos de dispersión se ha limitado a aquellas que suelen ofrecer las correlaciones más interesantes en este tipo de dataset.
 
 ---
+
+### 🤝 **Conectemos**
+
+Estoy siempre abierto a nuevas oportunidades y colaboraciones. ¡No dudes en contactarme!
+
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/octavio-landa-verde/)
+* [![Hotmail](https://img.shields.io/badge/email-Hotmail-blue.svg)](mailto:octaviolanda@hotmail.com)
